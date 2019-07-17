@@ -1,0 +1,34 @@
+{
+  "name": "Wendoling",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Victor",
+  "contributors": [],
+  "dependencies": {
+    "apidoc": "^0.15.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "crypto": "0.0.3",
+    "email-templates": "^2.4.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.3.0",
+    "gravatar": "^1.4.0",
+    "handlebars": "^4.0.5",
+    "http": "0.0.0",
+    "http-status-codes": "^1.0.6",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.4",
+    "nodemailer": "^2.2.1",
+    "password-generator": "^2.0.2",
+    "q": "^1.4.1",
+    "random-js": "^1.0.8",
+    "validator": "^5.0.0"
+  }
+}

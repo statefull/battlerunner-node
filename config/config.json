@@ -1,0 +1,23 @@
+{
+    "mongodb": {
+        "connectionString": "mongodb://localhost:27017/battlerunners"
+    },
+    "app": {
+        "listeningPort": "80",
+        "userPasswordLength": 6,
+        "userNicknameMinLength": 4,
+        "userNicknameMaxLength": 10,
+        "passwordSecurity": 10,
+        "passwordRecoverySecurity": 10,
+        "hashRandomMinValue": 1,
+        "hashRandomMaxValue": 1000000,
+        "jwtExpiresIn": 3600,
+        "jwtSecret": "supersecretstringpleasechangeme",
+        "earthRadio": 6371,
+        "defaultRunnersArea": 5,
+        "challengeDefaultDistance": 10,
+        "timeRecoverPassworkLinkIsValid": 1,
+        "generatedPasswordLength": 10,
+        "hashToGenerateRecoverPasswordLink": "sha256"
+    }
+}

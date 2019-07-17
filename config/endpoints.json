@@ -1,0 +1,29 @@
+{
+    "endpoint": {
+        "RUNNER_REGISTER": "/api/:versionId/runner/register",
+        "RUNNER_LOGIN": "/api/:versionId/runner/login",
+        "RUNNER_DEVICE_LOGIN": "/api/:versionId/runner/device/login",
+        "RUNNER_RECOVER_PASSWORD": "/api/:versionId/runner/recover/password",
+        "RUNNER_RECOVER_GENERATE_NEW_PASSWORD": "/api/:versionId/runner/generate/new/password/:token",
+        "RUNNER_FRIEND_INFORMATION": "/api/:versionId/secure/runner/friend/information",
+        "RUNNER_REGISTER_COMPLETION": "/api/:versionId/secure/runner/register/completion",
+        "RUNNER_DEVICE_ASSOCIATION": "/api/:versionId/secure/runner/device/association",
+        "RUNNER_OWN_INFORMATION": "/api/:versionId/secure/runner/own/information",
+        "RUNNER_UPDATE_INFORMATION": "/api/:versionId/secure/runner/update/information",
+        "RUNNER_UPDATE_PASSWORD": "/api/:versionId/secure/runner/update/password",
+        "RUNNER_PEOPLE_IN_AREA": "/api/:versionId/secure/runner/people/area/:range",
+        "SESSION_CREATE": "/api/:versionId/secure/session/create",
+        "SESSION_TRACKING": "/api/:versionId/secure/session/tracking",
+        "SESSION_OFFLINE_CREATE": "/api/:versionId/secure/session/offline/create",
+        "SESSION_FINISH": "/api/:versionId/secure/session/finish",
+        "SESSION_PAUSE": "/api/:versionId/secure/session/pause",
+        "SESSION_RESTART": "/api/:versionId/secure/session/restart",
+        "CHALLENGE_CREATE": "/api/:versionId/secure/challenge/create"
+    },
+    "domain": {
+        "APP_DOMAIN": "http://192.168.56.102"
+    },
+    "endpointFormed": {
+        "RUNNER_RECOVER_GENERATE_NEW_PASSWORD": "/api/v1/runner/generate/new/password/"
+    }
+}
